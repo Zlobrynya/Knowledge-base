@@ -35,6 +35,7 @@
   }
 ```
 В случае когда на этот объект начинают ссылаться слабо, создается **SideTable**, в которую переносятся все счетчики.
+https://github.com/swiftlang/swift/blob/main/stdlib/public/SwiftShims/swift/shims/RefCount.h#L78 
 
 **SideTable** создается при:
 - Возникновении weak ссылки
