@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Страница — 1" id="1aeBjJVF4vZXMyhNFC9T">
+    <mxGraphModel dx="1291" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="120" width="220" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-1" target="xgizl6u6MoNi_UoLTxeW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-12" value="нету strong ссылок" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-6">
+          <mxGeometry x="-0.2781" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-1" value="Life&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgizl6u6MoNi_UoLTxeW-18">
+          <mxGeometry x="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-2" target="xgizl6u6MoNi_UoLTxeW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-13" value="есть unowned" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-7">
+          <mxGeometry x="-0.2781" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-2" target="xgizl6u6MoNi_UoLTxeW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="100" />
+              <mxPoint x="220" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-14" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;нету weak,&lt;/span&gt;&lt;div&gt;нету unowned&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-10">
+          <mxGeometry x="-0.2848" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-2" value="Deiniting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgizl6u6MoNi_UoLTxeW-18">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-3" target="xgizl6u6MoNi_UoLTxeW-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="210" />
+              <mxPoint x="100" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-16" value="есть weak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-8">
+          <mxGeometry x="-0.2781" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-3" target="xgizl6u6MoNi_UoLTxeW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="180" />
+              <mxPoint y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-15" value="нету weak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-11">
+          <mxGeometry x="-0.1193" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-3" value="Deinited" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgizl6u6MoNi_UoLTxeW-18">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xgizl6u6MoNi_UoLTxeW-18" source="xgizl6u6MoNi_UoLTxeW-4" target="xgizl6u6MoNi_UoLTxeW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-17" value="нету side table" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xgizl6u6MoNi_UoLTxeW-9">
+          <mxGeometry x="-0.1844" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-4" value="Feed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgizl6u6MoNi_UoLTxeW-18">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xgizl6u6MoNi_UoLTxeW-5" value="Dead" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xgizl6u6MoNi_UoLTxeW-18">
+          <mxGeometry x="40" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
